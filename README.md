@@ -132,6 +132,16 @@
 
 #### 
 
+#### 1-6 class, object, interface
+
+1. class
+
+   
+
+
+
+
+
 ### 2. 운영체제
 
 #### 2-1 프로세스
@@ -231,4 +241,15 @@
 - 개발 공부를 시작한 계기
 - 개발직무에 가장 필요하다고 생각하는 역량
   - 긍정적인 커뮤니케이션, 책임감
+
+
+
+
+
+## 도움이 많이 되는 Github
+
+1. https://github.com/JaeYeopHan/Interview_Question_for_Beginner
+2. https://github.com/gyoogle/tech-interview-for-developer
+3. https://github.com/qkraudghgh/coding-interview
+4. https://github.com/GimunLee/tech-refrigerator
 
