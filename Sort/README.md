@@ -113,8 +113,6 @@ def insertion_sort(target):
 
 ### 4.  Quick Sort(퀵 정렬)
 
-
-
 ### 코드
 
 ```python
@@ -144,3 +142,40 @@ def quick_sort(arr):
     
     return sort(0, len(arr) - 1)
 ```
+
+
+
+### 5. 병합 정렬 (Merge Sort)
+
+
+
+#### 코드
+
+```python
+def merge_sort(array):
+    len_array = len(array)
+
+    if len_array < 2:
+        return array
+
+    mid = len_array // 2
+    left_array = merge_sort(array[:mid])
+    right_array = merge_sort(array[mid:])
+
+    merged_array = []
+    left = 0
+    right = 0
+
+    while left < len(left_array) and right < len(right_array):
+        if left_array[left] < right_array[right]:
+            merged_array.append(left_array[left])
+            left += 1
+        
+        else:
+            merged_array.append(right_array[right])
+            right += 1
+    merged_array += left_array[left:]
+    merged_array += right_array[right:]
+    return merged_array
+```
+

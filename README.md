@@ -343,3 +343,5 @@ class consoleLogger : ILogger // 인터페이스를 구현한 클래스
 3. https://github.com/qkraudghgh/coding-interview
 4. https://github.com/GimunLee/tech-refrigerator
 
+5. https://github.com/WooVictory/Ready-For-Tech-Interview
+6. https://github.com/WeareSoft/tech-interview
